@@ -1,0 +1,36 @@
+cards = 23
+border = rounded
+RECTANGLE="1-15", 0, 0, 6, 9, "#000000"
+RECTANGLE="1-15", 0.2, 0.2, 5.6, 8.6, "#FFFFFF"
+[name] = "One|Two|Three|Four|Five|Six|Seven|Eight|Nine|Ten|Eleven|Twelve|Thirteen|Fourteen|Fifteen|"
+font = arial, 28, "T", #000000
+text = "1-15", [name], 0.2, 0.7, 5.8, 2.8, center
+[pow] = "4|2|1|4|5|3|5|4|3|2|5|6|4|10|3"
+[hp] = "3|4|6|4|5|3|5|3|5|5|5|3|2|2|7|"
+text = "1-15", [pow], 0.2, 2.2, 2.8, 2.8, center
+text = "1-15", [hp], 3.2, 2.2, 2.8, 2.8, center
+font = arial, 14, "T", #000000
+text = "1-15", Monster, 0.2, -0.9, 5.8, 2.8, center
+Rectangle= "1-15", 0, 5, 6, 3.7, "#000000"
+Rectangle= "1-15", 0.2, 5.1, 5.6, 3.7, "#FFFFFF"
+[abl] = "Haste|Other Monsters in the same zone gain +2 power|If ~ doesn't attack, heal a friendly minon equal to his power| |If all your minions attack one zone, ~ gains 10 power| When ~ attacks, deal 2 damage to target enemy monster|Must attack. Your other minions don't take damage|When ~ enters the battlefield, taget tower gains +5 armor|When ~ enters the battlefield, deal 3 damage to target monster or tower|If ~ attacks a power tower, gain +1 attack and take no damage|Can only attack alone. If ~ attacks and lives, gain control of an enemy minion| |Doesn't count towards monster limit| | |"
+font = arial, 12, "T", #000000
+text = "1-15", [abl], 0.6, 6.2, 5, 4, center, wordwrap
+RECTANGLE="16-23", 0, 0, 6, 9, "#000000"
+RECTANGLE="16-23", 0.2, 0.2, 5.6, 8.6, "#FFFFFF"
+[name] = "Sixteen|Seventeen|Eighteen|Nineteen|Twenty|Twenty-one|Twenty-Two|Twenty3"
+font = arial, 28, "T", #000000
+text = "16-23", [name], 0.2, 0.7, 5.8, 2.8, center
+[pow] = "4|2|3|1|0|1|6|2"
+[hp] = "2|4|3|5|4|4|6|5"
+text = "16-23", [pow], 0.2, 2.2, 2.8, 2.8, center
+text = "16-23", [hp], 3.2, 2.2, 2.8, 2.8, center
+font = arial, 14, "T", #000000
+text = "16-23", Monster, 0.2, -0.9, 5.8, 2.8, center
+Rectangle= "16-23", 0, 5, 6, 3.7, "#000000"
+Rectangle= "16-23", 0.2, 5.1, 5.6, 3.7, "#FFFFFF"
+[abl] = "Destroy target curse or upgrade|Destroy target curse or upgrade|Destroy target curse or upgrade|Whenever you play an upgrade, gain +1 power|At the end of each turn, gain +1 power|Whenever you play a curse, deal 1 damage to a minion|When ~ enters the battlefield, deal 6 damage to target tower you control|Whenever ~ takes damage, bank the top card of any deck."
+font = arial, 12, "T", #000000
+text = "16-23", [abl], 0.6, 6.2, 5, 4, center, wordwrap
+
+//Monster that has an effect if your tower's health is less than the opponents
